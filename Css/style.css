@@ -1,0 +1,297 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+span{
+    color: #02918c;
+}
+/* common css end */
+
+/* navbar start */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 26px 25px;
+    display: inline-block;
+}
+/* navbar ends */
+
+/* banner section start */
+#banner{
+    background-image: url(../images/background.jpg);
+    height: 728px;
+    background-size: cover;
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+
+#banner .banner-ctn{
+    text-align: center;
+    color: #fff;
+}
+#banner .banner-ctn h4{
+    font-size: 30px;
+}
+#banner .banner-ctn h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 22px;
+    text-transform: uppercase;
+}
+#banner .banner-ctn p{
+    font-size: 18px;
+}
+#banner .banner-ctn img{
+    margin: 50px 0;
+}
+#banner .banner-ctn a{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 19px 43px;
+    display: inline-block;
+}
+
+/* banner section ends */
+
+/* About section start */
+.about{
+    height: 388px;
+}
+.about .container{
+    width: 1280px;
+}
+.about .container,
+.about .row{
+    height: 100%;
+}
+.about .about-ctn{
+    text-align: center;
+}
+
+.about .about-ctn h2{
+    font-size: 46px;
+    font-weight: 800;
+}
+.about .about-ctn p{
+    font-size: 16px;
+    color: #7e8287;
+    width: 879px;
+    line-height: 29px;
+    
+}
+.about .about-ctn p b{
+    font-size: 23px;
+}
+/* About section end */
+/* title section start */
+.title{
+    height: 350px;
+}
+.title .titel-ctn{
+    width: 287px;
+    text-align: center;
+    line-height: 20px;
+}
+.title .titel-ctn p{
+    font-size: 11px;
+    color: #7e8287;
+    width: 163px;
+    margin: 30px 61px;
+}
+.title .titel-ctn b{
+    color: #7e8287;
+}
+.title .titel-ctn img{
+    margin-bottom: 30px;
+}
+/* title section end */
+
+/* services section start */
+.services{
+    background-image: url(../images/service.jpg);
+    height: 730px;
+    background-size: cover;
+}
+.services .services-ctn{
+    text-align: left;
+    width: 475px;
+}
+.services .services-ctn p{
+    color: #7e8287;
+}
+.services .services-ctn{
+    padding: 75px 0;
+    text-align: left;
+}
+.services .services-ctn h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-align: left;
+}
+.services .services-title{
+    width: 575px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.services .services-title p{
+    color: #7e8287;
+    line-height: 30px;
+}
+.services .services-title .titel-ctn{
+    width: 250px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 11px;
+    padding: 20px 30px;
+}
+.services .services-title .titel-ctn b{
+    color: #7e8287;
+    font-size: 16px;
+}
+
+/* services section end */
+
+/* work section stat */
+.work .work-ctn{
+    padding-top: 107px;
+    padding-bottom: 79px;
+    text-align: center;
+}
+.work .work-ctn h2{
+    font-size: 46px;
+    font-weight: 800;
+
+}
+.work .work-ctn p{   
+    color: #7e8287;
+    width: 680px;
+    line-height: 40px;
+}
+
+/* work section end */
+
+
+/* Img section start */
+
+.img .container{
+    width: 1680px;
+    background-size: cover;
+}
+.img .container .img-ctn img{
+    width: 410px;
+    height: 280px;
+    
+}
+.img .container .img-ctn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Img section end */
+
+/* contact section start */
+.contact{
+    height: 388px;
+}
+.contact .container{
+    width: 1280px;
+}
+.contact .container,
+.contact .row{
+    height: 100%;
+}
+.contact .contact-ctn{
+    text-align: center;
+}
+.contact .contact-ctn h2{
+    font-size: 46px;
+    font-weight: 800;
+}
+.contact .contact-ctn p{
+    color: #7e8287;
+    width: 680px;
+    line-height: 40px;
+}
+/* contact section end */
+
+/* sumbit section start */
+.submit{
+    width: 100%;
+    height: 680px;
+    background-color: #0b0b0b
+}
+.submit .sub-ctn p{
+    color: #767a7f;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.submit .sub-ctn hr{
+    width: 680px;
+}
+.submit .sub-ctn a{
+    background-color: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 67px 250px;
+    padding: 19px 43px;
+    display: inline-block;
+    
+}
+
+/* sumbit section end */
+
+.myfolio{
+    height: 71px;
+    background-color: #000000;
+}
+.myfolio p{
+    font-size: 12px;
+    color: #7e8287;
+    margin-top: 30px;
+}
